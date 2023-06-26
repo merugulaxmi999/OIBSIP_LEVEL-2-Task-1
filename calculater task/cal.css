@@ -1,0 +1,53 @@
+
+.container{
+    display: flex;
+    background-color: #bbb4f6;
+    flex-direction: column;
+    width:35%;
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  0 0 50px 1px #4b4444;
+    height: max-content;
+    padding:40px 2px;
+}
+#inputfromuser input{
+    border-radius: 10px;
+    width:410px;
+    height:100px;
+    margin-bottom:20px;
+    border: 1px solid rgb(155, 132, 248);
+    font-weight: bold;
+    font-family: 'Courier', monospace;
+    font-size:30px;
+    text-align: right;
+}
+.number button , #enter button{
+    width:80px;
+    height:50px;
+    border:none;
+    border-radius: 25px;
+    margin:4px;
+    font-family: 'Courier', monospace;
+    font-size:30px;
+    box-shadow: 5px 5px 3px #593e9e77;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 10px;
+}
+#enter button{
+    background-color:#523bc5b0;
+    width:300px;
+}
+#division , #mul , #add , #sub , #mod{
+    background-color:hwb(250 25% 22% / 0.6);
+}
+.number button:hover , #equals button:hover , #division:hover , #mul:hover , #add:hover , #sub:hover , #mod:hover{
+    background-color: black;
+    color:rgb(19, 136, 172);
+    transition: 0.5s ease-out;
+}
